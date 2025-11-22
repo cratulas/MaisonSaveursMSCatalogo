@@ -1,0 +1,98 @@
+############################
+# OS Files
+############################
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+############################
+# Maven / Java / Spring Boot
+############################
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Log files
+*.log
+logs/
+*.out
+
+# JAR/WAR/EAR
+*.jar
+*.war
+*.ear
+
+# Maven local repository (if ever created)
+.mvn/local-repo/
+
+############################
+# Firebase Credentials (VERY IMPORTANT)
+############################
+# NEVER upload your Firebase private key
+firebase/serviceAccountKey.json
+
+############################
+# IDEs
+############################
+
+### STS / Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+tmp/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+############################
+# Others
+############################
+
+# Local environment files
+.env
+.env.local
+*.env.*
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+
+# Node (si algún día usas scripts o front en la misma carpeta)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################
+# IntelliJ Cache (if using complex setups)
+############################
+out/
+
