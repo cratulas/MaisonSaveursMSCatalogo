@@ -218,7 +218,7 @@ public class CatalogService {
                 : null;
 
         String country = cheese.getOrigin();
-        String region  = null; // no existe en tu modelo
+        String region  = null; 
 
         Double price = cheese.getPrice() != null ? cheese.getPrice().doubleValue() : null;
 
